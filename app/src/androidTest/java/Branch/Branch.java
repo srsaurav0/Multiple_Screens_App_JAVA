@@ -4,11 +4,21 @@ public class Branch {
     int p;
     float q;
     String r;
+    double dd;
 
-    public Branch(int p, float q, String r) {
+    public Branch(int p, float q, String r, double dd) {
         this.p = p;
         this.q = q;
         this.r = r;
+        this.dd = dd;
+    }
+
+    public double getDd() {
+        return dd;
+    }
+
+    public void setDd(double dd) {
+        this.dd = dd;
     }
 
     public int getP() {
